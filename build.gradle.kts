@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "run.vail"
+group = "xyz.jeelzzz"
 version = "1.0-SNAPSHOT"
 
 repositories {

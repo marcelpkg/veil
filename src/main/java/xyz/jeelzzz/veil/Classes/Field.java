@@ -1,4 +1,4 @@
-package run.vail.Classes;
+package xyz.jeelzzz.veil.Classes;
 
 public abstract class Field {
     private final String name;

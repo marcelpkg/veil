@@ -1,6 +1,6 @@
-package run.vail;
+package xyz.jeelzzz.veil;
 
-import run.vail.Classes.Schemas.ConfigSchema;
+import xyz.jeelzzz.veil.Classes.Schemas.ConfigSchema;
 
 import java.util.Map;
 

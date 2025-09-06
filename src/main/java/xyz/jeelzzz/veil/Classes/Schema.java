@@ -1,6 +1,4 @@
-package run.vail.Classes;
-
-import run.vail.Classes.Fields.StringField;
+package xyz.jeelzzz.veil.Classes;
 
 import java.util.HashMap;
 import java.util.Map;

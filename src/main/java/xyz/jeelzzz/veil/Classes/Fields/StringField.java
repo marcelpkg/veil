@@ -1,6 +1,6 @@
-package run.vail.Classes.Fields;
+package xyz.jeelzzz.veil.Classes.Fields;
 
-import run.vail.Classes.Field;
+import xyz.jeelzzz.veil.Classes.Field;
 
 public class StringField extends Field {
     public StringField(String name) {
