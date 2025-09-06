@@ -1,19 +1,18 @@
 import org.junit.jupiter.api.Test;
-import xyz.jeelzzz.veil.Classes.Schemas.ConfigSchema;
-
-import java.util.Map;
+import xyz.jeelzzz.veil.Schema;
+import xyz.jeelzzz.veil.primitives.StringSchema;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class MainTest {
 
+
+public class MainTest {
     @Test
     public void testBasicUsage() {
-
-        ConfigSchema schema = new ConfigSchema();
-        Map<String, Object> test = Map.of("name", "marcel", "numbers", "hi");
-
-        boolean valid = schema.validate(test);
+//        TODO: a more elegant way to create a schema, like Veil.string()
+//              need to figure out how it'd work with non-primitive schema types
+        Schema testSchema = new StringSchema();
+        boolean valid = testSchema.validate("hi");
         assertTrue(valid);
     }
 }
